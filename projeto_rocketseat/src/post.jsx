@@ -1,13 +1,11 @@
-export function Post(){
+
+
+export function Post(props){
     return (
         <div>
-        <p>post</p>
-        <p>post</p>
-        <p>post</p>
-        <p>post</p>
-        <p>post</p>
-        <p>post</p>
-        <p>post</p>
+        <strong>{props.author}</strong>
+        <p>{props.content}</p>
+        
         </div>
     )
 }
