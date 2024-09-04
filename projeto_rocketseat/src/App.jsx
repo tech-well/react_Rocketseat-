@@ -1,10 +1,9 @@
+ import {Post} from './post';
+
+ export function App(){
+   return (
+    <Post/>
+   )
+ }
 
 
-function App() {
-  return (
-   
-      <h1>olá</h1>
-       )
-}
-
-export default App
